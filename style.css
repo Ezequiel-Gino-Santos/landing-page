@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+body {
+    background-color: darkcyan;
+    width: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+header {
+    background-color: white;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 0px;
+    padding-top: 5px;
+}
+aside {
+    width: 800px;
+    margin: auto;
+}
+img {
+    margin-top: 15px;
+    height: 200px;
+}
+img, p, h2{
+    display: inline-block;
+}
+aside > h2 {
+    padding-top: 10px;
+    width: 800px;
+    margin: auto;
+    text-align: center;
+}
+p {
+    margin: 10px;
+    text-align: justify;
+    width: 400px;
+}
